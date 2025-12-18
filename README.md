@@ -1,6 +1,6 @@
 # 🎵 BobekkBoi Sound Board - My personal soundboard
 
-**Sound Player** is a modern, highly optimized audio player (`.wav`) for Windows, built on **WPF (.NET 10)** technology.
+**BobekkBoi Sound Board** is a modern, highly optimized audio player (`.wav`) for Windows, built on **WPF (.NET 10)** technology.
 
 The application was designed with a **"Zero Bloat"** philosophy. It is a clean tool that installs no services, does not run in the background, and **creates no configuration files or databases**. All behavior is defined dynamically at runtime via launch arguments.
 
