@@ -1,4 +1,4 @@
-# 🎵 Sound Player
+# 🎵 BobekkBoi Sound Board - My personal soundboard
 
 **Sound Player** is a modern, highly optimized audio player (`.wav`) for Windows, built on **WPF (.NET 10)** technology.
 
