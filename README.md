@@ -4,6 +4,8 @@
 
 The application was designed with a **"Zero Bloat"** philosophy. It is a clean tool that installs no services, does not run in the background, and **creates no configuration files or databases**. All behavior is defined dynamically at runtime via launch arguments.
 
+*Gemini's full of shit.. barely turns on honstly*
+
 ---
 
 ## ✨ Key Features
