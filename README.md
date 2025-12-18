@@ -1,10 +1,8 @@
 # 🎵 BobekkBoi Sound Board - My personal soundboard
 
-**BobekkBoi Sound Board** is a modern, highly optimized audio player (`.wav`) for Windows, built on **WPF (.NET 10)** technology.
+**BobekkBoi Sound Board** is a modern, highly optimized audio player (`.wav`) for Windows, built on **WPF (.NET 8)** technology.
 
 The application was designed with a **"Zero Bloat"** philosophy. It is a clean tool that installs no services, does not run in the background, and **creates no configuration files or databases**. All behavior is defined dynamically at runtime via launch arguments.
-
-*Gemini's full of shit.. barely turns on honstly*
 
 ---
 
@@ -46,7 +44,7 @@ The application is configured **exclusively via launch arguments**. This allows 
 Launches the app on the second monitor, full screen (covering the taskbar), with the keyboard disabled and system files hidden.
 
 ```cmd
-soundPlayer.exe -screen 1 -fullscreen -nokey -clean -start "C:\PublicSounds"
+BobekkBoiSoundBoard.exe -screen 1 -fullscreen -nokey -clean -start "C:\PublicSounds"
 ```
 
 ### 2️⃣ Streamer / Soundboard
@@ -54,7 +52,7 @@ soundPlayer.exe -screen 1 -fullscreen -nokey -clean -start "C:\PublicSounds"
 Window is always on top and allows mixing ("spamming") multiple sound effects at once.
 
 ```cmd
-soundPlayer.exe -top -multi -home "D:\StreamAssets\Sfx"
+BobekkBoiSoundBoard.exe -top -multi -home "D:\StreamAssets\Sfx"
 ```
 
 ### 3️⃣ Static Widget Window
@@ -62,7 +60,7 @@ soundPlayer.exe -top -multi -home "D:\StreamAssets\Sfx"
 A window without a title bar that looks like a desktop component.
 
 ```cmd
-soundPlayer.exe -nobar -start "C:\Music\Ambient"
+BobekkBoiSoundBoard.exe -nobar -start "C:\Music\Ambient"
 ```
 
 ---
@@ -133,16 +131,18 @@ without escaping will cause a compiler error.
 
 ### 🧠 Memory (RAM) Usage Guidelines
 
-* **At least 2 GB RAM** recommended for a *library of sound effects*
 * **At least 4 GB RAM** recommended for a *music library*
-* **At least 1 GB RAM** sufficient for *a couple of sounds*
+* **At least 2 GB RAM** recommended for a *library of sound effects*
+* <ins>**At least 1 GB RAM** sufficient for *a couple of sounds*</ins>
 
 > The application itself is lightweight and **can run with as little as ~500 MB RAM**, depending on usage.
 
-*eh.. AI told soy but I think 500megs is quite a lot for an app, that plays sounds.. Atleast they play instantly ay*
+*eh.. AI told so, but I think 500 MB is quite a lot for an app that just plays sounds… at least they play instantly, ay*
 
 ---
 
 Built as a custom solution with a strong focus on **performance**, **portability**, and **modularity**.
+
+---
 
 # Mostly Gemini and ChatGPT built this program and documentation. I take very little credit for this.
