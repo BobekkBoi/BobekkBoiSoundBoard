@@ -6,6 +6,9 @@ The application was designed with a **"Zero Bloat"** philosophy. It is a clean t
 
 ---
 
+<img width="950" height="600" alt="{3452F7A7-D3F2-4E6A-939A-19FAA5BF315F}" src="https://github.com/user-attachments/assets/e13d26f8-e315-42af-9df7-0272fb7a308f" />
+
+
 ## ✨ Key Features
 
 * **⚡ Instant Response** – Asynchronous directory navigation (Batch Loading) and aggressive RAM management.
