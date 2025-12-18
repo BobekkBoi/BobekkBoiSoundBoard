@@ -148,4 +148,4 @@ Built as a custom solution with a strong focus on **performance**, **portability
 
 ---
 
-# Mostly Gemini and ChatGPT built this program and documentation. I take very little credit for this.
+# Mostly Gemini and ChatGPT built this program and documentation in about 6 hours. I take very little credit for this.
