@@ -89,41 +89,15 @@ Application behavior is **100% determined by launch arguments**, guaranteeing ma
 
 ---
 
-## 👨‍💻 Developer Note – Path Escaping in C#
+## ❗ Known Issues
 
-A common pitfall in C# development is handling file paths in strings.
-
-### ❗ Problem
-
-In standard C# strings, the backslash (`\`) is an escape character. Writing:
-
-```csharp
-"C:\Windows"
+ ```cmd
+-start "C:\" -home "C:\"
 ```
-
-without escaping will cause a compiler error.
-
-### ✅ Solutions Used in This Code
-
-**Verbatim string (recommended):**
-
-```csharp
-@"C:\Windows\Media"
+### If this argument does not work, try this:
+ ```cmd
+- "C:\\" -home "C:\\"
 ```
-
-**Escaped backslashes:**
-
-```csharp
-"C:\\Windows\\Media"
-```
-
-### ❌ Incorrect
-
-```csharp
-"C:\Windows\Media"
-```
-
-> **Note:** This applies **only to source code**. Standard Windows paths work normally in launch arguments.
 
 ---
 
