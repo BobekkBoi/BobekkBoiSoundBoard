@@ -96,7 +96,7 @@ Application behavior is **100% determined by launch arguments**, guaranteeing ma
 ```
 ### If this argument does not work, try this:
  ```cmd
-- "C:\\" -home "C:\\"
+-start "C:\\" -home "C:\\"
 ```
 
 ---
