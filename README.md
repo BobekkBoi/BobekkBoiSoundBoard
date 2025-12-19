@@ -114,8 +114,6 @@ Application behavior is **100% determined by launch arguments**, guaranteeing ma
 
 > The application itself is lightweight and **can run with as little as ~500 MB RAM**, depending on usage.
 
-*eh.. AI told so, but I think 500 MB is quite a lot for an app that just plays sounds… at least they play instantly, ay*
-
 ---
 
 Built as a custom solution with a strong focus on **performance**, **portability**, and **modularity**.
